@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2552A1E4292D56100018CC49 /* ScooterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2552A1E3292D56100018CC49 /* ScooterDetailView.swift */; };
+		25546A592924176900CAA4D5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25546A582924176900CAA4D5 /* DataController.swift */; };
+		25546A5C292417C000CAA4D5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25546A5A292417C000CAA4D5 /* Model.xcdatamodeld */; };
+		25546A5F29241BE900CAA4D5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25546A5E29241BE900CAA4D5 /* LocationManager.swift */; };
+		259C313528E36A8300A4612C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C313428E36A8300A4612C /* APIService.swift */; };
+		259C313728E36CB700A4612C /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259C313628E36CB700A4612C /* Authentication.swift */; };
+		25A8688E28EDF81100B89738 /* scooters.json in Resources */ = {isa = PBXBuildFile; fileRef = 25C3967628ECB128002034DE /* scooters.json */; };
+		25C3967228ECAB8A002034DE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C3967128ECAB8A002034DE /* SplashScreen.swift */; };
+		25C3967928ECB1B0002034DE /* Scooters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C3967828ECB1B0002034DE /* Scooters.swift */; };
+		25CE77C428F072BF004095E4 /* ConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE77C328F072BF004095E4 /* ConditionsView.swift */; };
+		25D1DAAF2938BA35000C0B75 /* RentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1DAAE2938BA35000C0B75 /* RentButton.swift */; };
+		25D1DAB12938BEC4000C0B75 /* Info.plist 11-47-07-994.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25D1DAB02938BEC4000C0B75 /* Info.plist 11-47-07-994.plist */; };
+		25D1ED022948FED2006D91FC /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ED012948FED2006D91FC /* Status.swift */; };
+		25D1ED052948FF5E006D91FC /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ED042948FF5E006D91FC /* NetworkError.swift */; };
+		25D1ED072948FF82006D91FC /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ED062948FF82006D91FC /* APIConstants.swift */; };
+		25D1ED092948FFAA006D91FC /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D1ED082948FFAA006D91FC /* ApiService.swift */; };
+		25D5CD472950D2D0003092EA /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D5CD462950D2D0003092EA /* SideMenuView.swift */; };
+		25D70D94295118A40079506C /* RentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D70D93295118A40079506C /* RentListView.swift */; };
+		A551DE3F28DA329300E7E098 /* PatinflyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE3E28DA329300E7E098 /* PatinflyApp.swift */; };
+		A551DE4128DA329300E7E098 /* ScooterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE4028DA329300E7E098 /* ScooterListView.swift */; };
+		A551DE4328DA329300E7E098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A551DE4228DA329300E7E098 /* Assets.xcassets */; };
+		A551DE4628DA329300E7E098 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A551DE4528DA329300E7E098 /* Preview Assets.xcassets */; };
+		A551DE5028DA329400E7E098 /* PatinflyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE4F28DA329400E7E098 /* PatinflyTests.swift */; };
+		A551DE5A28DA329400E7E098 /* PatinflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE5928DA329400E7E098 /* PatinflyUITests.swift */; };
+		A551DE5C28DA329400E7E098 /* PatinflyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE5B28DA329400E7E098 /* PatinflyUITestsLaunchTests.swift */; };
+		A551DE6A28DA32A800E7E098 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE6928DA32A800E7E098 /* LoginView.swift */; };
+		A551DE7028DA409C00E7E098 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE6F28DA409C00E7E098 /* LoginViewModel.swift */; };
+		A551DE7228DA40AC00E7E098 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551DE7128DA40AC00E7E098 /* Credentials.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A551DE4C28DA329400E7E098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A551DE3328DA329300E7E098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A551DE3A28DA329300E7E098;
+			remoteInfo = Patinfly;
+		};
+		A551DE5628DA329400E7E098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A551DE3328DA329300E7E098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A551DE3A28DA329300E7E098;
+			remoteInfo = Patinfly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2552A1E3292D56100018CC49 /* ScooterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterDetailView.swift; sourceTree = "<group>"; };
+		2552A1E5292D58200018CC49 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		25546A582924176900CAA4D5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		25546A5B292417C000CAA4D5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		25546A5E29241BE900CAA4D5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		25546A6029241DCC00CAA4D5 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		25546A612924211C00CAA4D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Desktop/MapLocation/MapLocation/Info.plist; sourceTree = "<group>"; };
+		259C313428E36A8300A4612C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		259C313628E36CB700A4612C /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		25C3967128ECAB8A002034DE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		25C3967628ECB128002034DE /* scooters.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scooters.json; sourceTree = "<group>"; };
+		25C3967828ECB1B0002034DE /* Scooters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooters.swift; sourceTree = "<group>"; };
+		25CE77C328F072BF004095E4 /* ConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsView.swift; sourceTree = "<group>"; };
+		25D1DAAE2938BA35000C0B75 /* RentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentButton.swift; sourceTree = "<group>"; };
+		25D1DAB02938BEC4000C0B75 /* Info.plist 11-47-07-994.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info.plist 11-47-07-994.plist"; path = "../../../.Trash/Info.plist 11-47-07-994.plist"; sourceTree = "<group>"; };
+		25D1ED012948FED2006D91FC /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		25D1ED042948FF5E006D91FC /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		25D1ED062948FF82006D91FC /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		25D1ED082948FFAA006D91FC /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		25D5CD462950D2D0003092EA /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		25D70D93295118A40079506C /* RentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentListView.swift; sourceTree = "<group>"; };
+		A551DE3B28DA329300E7E098 /* Patinfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Patinfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A551DE3E28DA329300E7E098 /* PatinflyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyApp.swift; sourceTree = "<group>"; };
+		A551DE4028DA329300E7E098 /* ScooterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterListView.swift; sourceTree = "<group>"; };
+		A551DE4228DA329300E7E098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A551DE4528DA329300E7E098 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A551DE4B28DA329400E7E098 /* PatinflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatinflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A551DE4F28DA329400E7E098 /* PatinflyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyTests.swift; sourceTree = "<group>"; };
+		A551DE5528DA329400E7E098 /* PatinflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatinflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A551DE5928DA329400E7E098 /* PatinflyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyUITests.swift; sourceTree = "<group>"; };
+		A551DE5B28DA329400E7E098 /* PatinflyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatinflyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A551DE6928DA32A800E7E098 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A551DE6F28DA409C00E7E098 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A551DE7128DA40AC00E7E098 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A551DE3828DA329300E7E098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE4828DA329400E7E098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE5228DA329400E7E098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25546A5D29241AA300CAA4D5 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				25546A5E29241BE900CAA4D5 /* LocationManager.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2558973928FEC62700416809 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE4028DA329300E7E098 /* ScooterListView.swift */,
+				2552A1E3292D56100018CC49 /* ScooterDetailView.swift */,
+				25CE77C328F072BF004095E4 /* ConditionsView.swift */,
+				25D1DAAE2938BA35000C0B75 /* RentButton.swift */,
+				25D5CD462950D2D0003092EA /* SideMenuView.swift */,
+				25D70D93295118A40079506C /* RentListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		259C313328E36A6F00A4612C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				259C313428E36A8300A4612C /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		25C3967328ECB0E8002034DE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				25C3967628ECB128002034DE /* scooters.json */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		25D1ED032948FF21006D91FC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				25D1ED042948FF5E006D91FC /* NetworkError.swift */,
+				25D1ED062948FF82006D91FC /* APIConstants.swift */,
+				25D1ED082948FFAA006D91FC /* ApiService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A551DE3228DA329300E7E098 = {
+			isa = PBXGroup;
+			children = (
+				2552A1E5292D58200018CC49 /* Location.gpx */,
+				25546A612924211C00CAA4D5 /* Info.plist */,
+				25546A6029241DCC00CAA4D5 /* Location.gpx */,
+				25546A5A292417C000CAA4D5 /* Model.xcdatamodeld */,
+				A551DE3E28DA329300E7E098 /* PatinflyApp.swift */,
+				2558973928FEC62700416809 /* Views */,
+				A551DE3D28DA329300E7E098 /* Patinfly */,
+				A551DE4E28DA329400E7E098 /* PatinflyTests */,
+				A551DE5828DA329400E7E098 /* PatinflyUITests */,
+				A551DE3C28DA329300E7E098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A551DE3C28DA329300E7E098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE3B28DA329300E7E098 /* Patinfly.app */,
+				A551DE4B28DA329400E7E098 /* PatinflyTests.xctest */,
+				A551DE5528DA329400E7E098 /* PatinflyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A551DE3D28DA329300E7E098 /* Patinfly */ = {
+			isa = PBXGroup;
+			children = (
+				25D1ED032948FF21006D91FC /* API */,
+				25D1DAB02938BEC4000C0B75 /* Info.plist 11-47-07-994.plist */,
+				25546A5D29241AA300CAA4D5 /* Map */,
+				A551DE7328DA411600E7E098 /* Models */,
+				25C3967128ECAB8A002034DE /* SplashScreen.swift */,
+				25C3967328ECB0E8002034DE /* data */,
+				259C313328E36A6F00A4612C /* Services */,
+				A551DE6828DA329800E7E098 /* Login */,
+				A551DE4228DA329300E7E098 /* Assets.xcassets */,
+				A551DE4428DA329300E7E098 /* Preview Content */,
+				25546A582924176900CAA4D5 /* DataController.swift */,
+			);
+			path = Patinfly;
+			sourceTree = "<group>";
+		};
+		A551DE4428DA329300E7E098 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE4528DA329300E7E098 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A551DE4E28DA329400E7E098 /* PatinflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE4F28DA329400E7E098 /* PatinflyTests.swift */,
+			);
+			path = PatinflyTests;
+			sourceTree = "<group>";
+		};
+		A551DE5828DA329400E7E098 /* PatinflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE5928DA329400E7E098 /* PatinflyUITests.swift */,
+				A551DE5B28DA329400E7E098 /* PatinflyUITestsLaunchTests.swift */,
+			);
+			path = PatinflyUITests;
+			sourceTree = "<group>";
+		};
+		A551DE6828DA329800E7E098 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE6928DA32A800E7E098 /* LoginView.swift */,
+				A551DE6F28DA409C00E7E098 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A551DE7328DA411600E7E098 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A551DE7128DA40AC00E7E098 /* Credentials.swift */,
+				259C313628E36CB700A4612C /* Authentication.swift */,
+				25C3967828ECB1B0002034DE /* Scooters.swift */,
+				25D1ED012948FED2006D91FC /* Status.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A551DE3A28DA329300E7E098 /* Patinfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A551DE5F28DA329400E7E098 /* Build configuration list for PBXNativeTarget "Patinfly" */;
+			buildPhases = (
+				A551DE3728DA329300E7E098 /* Sources */,
+				A551DE3828DA329300E7E098 /* Frameworks */,
+				A551DE3928DA329300E7E098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Patinfly;
+			productName = Patinfly;
+			productReference = A551DE3B28DA329300E7E098 /* Patinfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A551DE4A28DA329400E7E098 /* PatinflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A551DE6228DA329400E7E098 /* Build configuration list for PBXNativeTarget "PatinflyTests" */;
+			buildPhases = (
+				A551DE4728DA329400E7E098 /* Sources */,
+				A551DE4828DA329400E7E098 /* Frameworks */,
+				A551DE4928DA329400E7E098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A551DE4D28DA329400E7E098 /* PBXTargetDependency */,
+			);
+			name = PatinflyTests;
+			productName = PatinflyTests;
+			productReference = A551DE4B28DA329400E7E098 /* PatinflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A551DE5428DA329400E7E098 /* PatinflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A551DE6528DA329400E7E098 /* Build configuration list for PBXNativeTarget "PatinflyUITests" */;
+			buildPhases = (
+				A551DE5128DA329400E7E098 /* Sources */,
+				A551DE5228DA329400E7E098 /* Frameworks */,
+				A551DE5328DA329400E7E098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A551DE5728DA329400E7E098 /* PBXTargetDependency */,
+			);
+			name = PatinflyUITests;
+			productName = PatinflyUITests;
+			productReference = A551DE5528DA329400E7E098 /* PatinflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A551DE3328DA329300E7E098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A551DE3A28DA329300E7E098 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A551DE4A28DA329400E7E098 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A551DE3A28DA329300E7E098;
+					};
+					A551DE5428DA329400E7E098 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A551DE3A28DA329300E7E098;
+					};
+				};
+			};
+			buildConfigurationList = A551DE3628DA329300E7E098 /* Build configuration list for PBXProject "Patinfly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A551DE3228DA329300E7E098;
+			productRefGroup = A551DE3C28DA329300E7E098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A551DE3A28DA329300E7E098 /* Patinfly */,
+				A551DE4A28DA329400E7E098 /* PatinflyTests */,
+				A551DE5428DA329400E7E098 /* PatinflyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A551DE3928DA329300E7E098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A8688E28EDF81100B89738 /* scooters.json in Resources */,
+				A551DE4628DA329300E7E098 /* Preview Assets.xcassets in Resources */,
+				25D1DAB12938BEC4000C0B75 /* Info.plist 11-47-07-994.plist in Resources */,
+				A551DE4328DA329300E7E098 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE4928DA329400E7E098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE5328DA329400E7E098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A551DE3728DA329300E7E098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1ED052948FF5E006D91FC /* NetworkError.swift in Sources */,
+				25D1DAAF2938BA35000C0B75 /* RentButton.swift in Sources */,
+				25D5CD472950D2D0003092EA /* SideMenuView.swift in Sources */,
+				25C3967928ECB1B0002034DE /* Scooters.swift in Sources */,
+				25C3967228ECAB8A002034DE /* SplashScreen.swift in Sources */,
+				25CE77C428F072BF004095E4 /* ConditionsView.swift in Sources */,
+				259C313728E36CB700A4612C /* Authentication.swift in Sources */,
+				A551DE7028DA409C00E7E098 /* LoginViewModel.swift in Sources */,
+				2552A1E4292D56100018CC49 /* ScooterDetailView.swift in Sources */,
+				25546A592924176900CAA4D5 /* DataController.swift in Sources */,
+				A551DE6A28DA32A800E7E098 /* LoginView.swift in Sources */,
+				A551DE7228DA40AC00E7E098 /* Credentials.swift in Sources */,
+				A551DE4128DA329300E7E098 /* ScooterListView.swift in Sources */,
+				25D1ED022948FED2006D91FC /* Status.swift in Sources */,
+				259C313528E36A8300A4612C /* APIService.swift in Sources */,
+				25D1ED092948FFAA006D91FC /* ApiService.swift in Sources */,
+				25D70D94295118A40079506C /* RentListView.swift in Sources */,
+				25D1ED072948FF82006D91FC /* APIConstants.swift in Sources */,
+				A551DE3F28DA329300E7E098 /* PatinflyApp.swift in Sources */,
+				25546A5C292417C000CAA4D5 /* Model.xcdatamodeld in Sources */,
+				25546A5F29241BE900CAA4D5 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE4728DA329400E7E098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A551DE5028DA329400E7E098 /* PatinflyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551DE5128DA329400E7E098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A551DE5C28DA329400E7E098 /* PatinflyUITestsLaunchTests.swift in Sources */,
+				A551DE5A28DA329400E7E098 /* PatinflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A551DE4D28DA329400E7E098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A551DE3A28DA329300E7E098 /* Patinfly */;
+			targetProxy = A551DE4C28DA329400E7E098 /* PBXContainerItemProxy */;
+		};
+		A551DE5728DA329400E7E098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A551DE3A28DA329300E7E098 /* Patinfly */;
+			targetProxy = A551DE5628DA329400E7E098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A551DE5D28DA329400E7E098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A551DE5E28DA329400E7E098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A551DE6028DA329400E7E098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Patinfly/Preview Content\"";
+				DEVELOPMENT_TEAM = F3C898XGCX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Patinfly/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow permissions to GPS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.Patinfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A551DE6128DA329400E7E098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Patinfly/Preview Content\"";
+				DEVELOPMENT_TEAM = F3C898XGCX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Patinfly/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow permissions to GPS";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.Patinfly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A551DE6328DA329400E7E098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.PatinflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patinfly.app/Patinfly";
+			};
+			name = Debug;
+		};
+		A551DE6428DA329400E7E098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.PatinflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Patinfly.app/Patinfly";
+			};
+			name = Release;
+		};
+		A551DE6628DA329400E7E098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.PatinflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patinfly;
+			};
+			name = Debug;
+		};
+		A551DE6728DA329400E7E098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cat.estudiants.urv.PatinflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Patinfly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A551DE3628DA329300E7E098 /* Build configuration list for PBXProject "Patinfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A551DE5D28DA329400E7E098 /* Debug */,
+				A551DE5E28DA329400E7E098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A551DE5F28DA329400E7E098 /* Build configuration list for PBXNativeTarget "Patinfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A551DE6028DA329400E7E098 /* Debug */,
+				A551DE6128DA329400E7E098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A551DE6228DA329400E7E098 /* Build configuration list for PBXNativeTarget "PatinflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A551DE6328DA329400E7E098 /* Debug */,
+				A551DE6428DA329400E7E098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A551DE6528DA329400E7E098 /* Build configuration list for PBXNativeTarget "PatinflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A551DE6628DA329400E7E098 /* Debug */,
+				A551DE6728DA329400E7E098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		25546A5A292417C000CAA4D5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25546A5B292417C000CAA4D5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 25546A5B292417C000CAA4D5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A551DE3328DA329300E7E098 /* Project object */;
+}
